@@ -14,11 +14,11 @@ countdown(12)
 
 def countdown_with_sleep(num)
   until num == 0
-    time = Time.now
-    puts "#{number} SECOND(S)!"
-    sleep 1.seconds until number -= 1
+    puts "#{num} SECOND(S)!"
+    sleep 1
+    num -= 1
   end
-  "HAPPY NEW YEAR!"
+  p "HAPPY NEW YEAR!"
 end
 
 countdown(5)
