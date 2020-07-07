@@ -1,7 +1,6 @@
 #write your code here
-countdown_output(number)
-
 def countdown
+  countdown_output(number)
   until number = 0
     puts "${number} SECOND(S)!"
     number -= 1
